@@ -308,7 +308,16 @@ h6 {
   position: fixed;
   right: 15px;
   top: 15px;
-  text-shadow: #e6c44a;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(255, 252, 90),
+    0 0 82px rgb(255, 252, 90),
+    0 0 92px rgb(255, 252, 90),
+    0 0 102px rgb(255, 252, 90),
+    0 0 151px #0fa;
+
 }
 
 @media (max-width: 991px) {
