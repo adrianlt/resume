@@ -427,7 +427,7 @@
 }
 
 .glightbox-mobile .goverlay {
-  background: #000
+  background: rgba(0, 0, 0, 0.788)
 }
 
 .gclose,
@@ -489,9 +489,9 @@ iframe.wait-autoplay {
   opacity: 0 !important
 }
 
-.glightbox-clean .gslide-description {
+/*.glightbox-clean .gslide-description {
   background: #fff
-}
+}*/
 
 .glightbox-clean .gdesc-inner {
   padding: 22px 20px
@@ -501,7 +501,7 @@ iframe.wait-autoplay {
   font-size: 1em;
   font-weight: 400;
   font-family: Open Sans;
-  color: #000;
+  color: rgb(255, 255, 255);
   margin-bottom: 19px;
   line-height: 1.4em
 }

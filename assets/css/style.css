@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg-baru.jpg") top right no-repeat;
+  background: #040404 url("../img/others/bg-baru.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -154,7 +154,7 @@ h6 {
   #header h2 {
     font-size: 20px;
     line-height: 30px;
-    align-items: center;
+    text-align: center;
   }
 
   #header .social-links {
@@ -309,16 +309,20 @@ h6 {
   position: fixed;
   right: 15px;
   top: 15px;
-  text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px rgb(255, 252, 90),
-    0 0 82px rgb(255, 252, 90),
-    0 0 92px rgb(255, 252, 90),
-    0 0 102px rgb(255, 252, 90),
-    0 0 151px #0fa;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fac71f, 0 0 40px #fac71f, 0 0 50px #fac71f, 0 0 60px #fac71f, 0 0 70px #fac71f, 0 0 80px #fac71f;
+  }
 }
 
 @media (max-width: 991px) {
@@ -842,7 +846,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #FFE898;
+  background: #ffcf20;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -921,7 +925,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #ffffff;
+  color: #fff;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
