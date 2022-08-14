@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/mipdevpc/public_html/
+    - export DEPLOYPATH=/home/mipdevpc/public_html/resume-adrian
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
