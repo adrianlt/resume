@@ -484,6 +484,36 @@ section .container {
 }
 
 /*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.clients .container {
+  background-color: #000000;
+}
+
+.clients .col-lg-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients img {
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.clients img:hover {
+  filter: none;
+  transform: scale(1.1);
+}
+
+
+/*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
 .counts {
