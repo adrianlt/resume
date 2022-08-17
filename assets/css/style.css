@@ -19,14 +19,14 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/others/bg-baru.jpg") top right no-repeat;
+  background: #040404 url("../img/others/bg-new.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
   top: 0;
   height: 100vh;
   z-index: -1;
-  filter: brightness(50%)
+  filter: brightness(70%)
 }
 
 @media (min-width: 1024px) {
@@ -113,7 +113,7 @@ h6 {
 }
 
 #header h2 span {
-  color: #ffd437;
+  color: #FFE898;
   font-weight: bold;
   padding-bottom: 6px;
 }
@@ -1265,7 +1265,7 @@ section .container {
 }
 
 .credits a {
-  color: #ffd437;
+  color: #FFE898;
   transition: 0.3s;
 }
 
