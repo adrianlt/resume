@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/others/bg-new.jpg") top right no-repeat;
+  background: #040404 url("../img/others/bg-mobile.gif") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -28,6 +28,21 @@ body::before {
   z-index: -1;
   filter: brightness(70%)
 }
+
+/*@media (max-width: 991px) {
+  body::before {
+    content: "";
+    position: fixed;
+    background: #040404 url("../img/others/bg-mobile.gif") top right no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+    filter: brightness(70%)
+  }
+}*/
 
 @media (min-width: 1024px) {
   body::before {
@@ -74,7 +89,7 @@ h6 {
 @media (max-width: 991px) {
   #header button {
     background: transparent;
-    border-color: #FFE898;
+    border-color: #6FEDD6;
     border: 10;
     margin-top: 30px;
     padding: 10px;
@@ -108,13 +123,14 @@ h6 {
 
 #header h2 {
   font-size: 24px;
+  font-weight: 400;
   margin-top: 20px;
-  color: rgb(255, 255, 255);
+  color: rgb(189, 189, 189);
 }
 
 #header h2 span {
-  color: #FFE898;
-  font-weight: bold;
+  color: #ffffff;
+  font-weight: 700;
   padding-bottom: 6px;
 }
 
