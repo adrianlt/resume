@@ -43,6 +43,10 @@
   content: "\ec16";
 }
 
+.ri-file-list-3-line:before {
+  content: "\ecef";
+}
+
 .ri-calendar-todo-line:before {
   content: "\eb29";
 }
