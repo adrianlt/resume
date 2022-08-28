@@ -1277,6 +1277,14 @@ section .container {
     padding: 10px;
     background: rgba(0, 0, 0, 0.8);
   }
+
+  .credits a {
+    color: #B9FFF8;
+    transition: 0.3s;
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    animation: none !important;
+  }
 }
 
 .credits a {
@@ -1285,7 +1293,6 @@ section .container {
   -webkit-animation: glow-2 1s ease-in-out infinite alternate;
   -moz-animation: glow-2 1s ease-in-out infinite alternate;
   animation: glow-2 1s ease-in-out infinite alternate;
-
 }
 
 @keyframes glow-2 {
