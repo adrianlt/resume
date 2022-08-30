@@ -1297,11 +1297,11 @@ section .container {
 
 @keyframes glow-2 {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+    text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 1px #ffffff;
   }
 
   to {
-    text-shadow: 0 0 20px #1f90fa, 0 0 30px #1f90fa, 0 0 40px #1f90fa, 0 0 50px #1f90fa, 0 0 60px #1f90fa, 0 0 70px #1f90fa, 0 0 80px #1f90fa;
+    text-shadow: 0 0 10px #1f90fa, 0 0 5px #1f90fa, 0 0 5px #1f90fa, 0 0 5px #1f90fa, 0 0 5px #1f90fa, 0 0 5px #1f90fa, 0 0 5px #1f90fa;
   }
 }
 
